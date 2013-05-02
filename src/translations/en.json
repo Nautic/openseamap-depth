@@ -23,6 +23,7 @@
     "1021":"Depth Data",
     "1022":"Introduction",
     "1023":"Tracks",
+    "1024":"Vessels",
     "1025":"Additional information",
     "1026":"Attributions",
     "1027":"Validation error occured",
@@ -46,5 +47,9 @@
     "1046":"JavaScript Libraries",
     "1047":"Images",
     "1048":"Fullscreen Chart",
+    "1049":"Vessel Name",
+    "1050":"Vessel",
+    "1051":"Verification Depth Settings",
+    "1052":"Sensor Positions",
     "9103":"Username already exists."
 }

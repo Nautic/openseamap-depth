@@ -23,6 +23,7 @@
     "1021":"Tiefen-Daten",
     "1022":"Einführung",
     "1023":"Tracks",
+    "1024":"Yachten",
     "1025":"Weitere Informationen",
     "1026":"Attributions",
     "1027":"Validierungsfehler aufgetreten",
@@ -46,5 +47,9 @@
     "1046":"JavaScript Bibliotheken",
     "1047":"Bilder",
     "1048":"Vollbildkarte",
+    "1049":"Name der Yacht",
+    "1050":"Yacht",
+    "1051":"Verifizierung der Tiefenangaben",
+    "1052":"Positionen der Sensoren",
     "9103":"Benutzername existiert bereits."
 }
