@@ -18,6 +18,7 @@ OSeaM.routers.Router = Backbone.Router.extend({
         'home'         : 'home',
         'about'        : 'about',
         'register'     : 'register',
+        'settings'     : 'settings',
         'introduction' : 'introduction',
         'tracks'       : 'tracks',
         'maptracks'    : 'maptracks',
@@ -63,6 +64,14 @@ OSeaM.routers.Router = Backbone.Router.extend({
         OSeaM.frontend.startView('Register', {
             model: OSeaM.frontend.getAuth()
         });
+    },
+    settings: function() {
+        this.renderTopAndNavBar('settings');
+        if (this.checkAuthenticated() === true) {
+            OSeaM.frontend.startView('Settings', {
+                model: OSeaM.frontend.getAuth()
+            });
+        }
     },
     introduction: function() {
         this.renderTopAndNavBar('introduction');
